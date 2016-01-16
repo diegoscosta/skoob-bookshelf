@@ -6,6 +6,20 @@ class Bookshelf extends Service
 	private $user = null;
 	private $shelf = null;
 
+	const SHELF_TODOS = 0;
+	const SHELF_LIDO = 1;
+	const SHELF_LENDO = 2;
+	const SHELF_QUERO_LER = 3;
+	const SHELF_RELENDO = 4;
+	const SHELF_ABANDONEI = 5;
+	const SHELF_TENHO = 6;
+	const SHELF_FAVOTIROS = 8;
+	const SHELF_DESEJADOS = 9;
+	const SHELF_TROCO = 10;
+	const SHELF_EMPRESTADOS = 11;
+	const SHELF_META = 12;
+
+
 	public function setUser($user)
 	{
 		$this->user = $user;
