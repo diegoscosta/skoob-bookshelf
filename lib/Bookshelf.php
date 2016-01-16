@@ -1,7 +1,7 @@
 <?php	
 namespace DiegoSCosta\Skoob;
 
-class SkoobBookshelf extends SkoobService
+class Bookshelf extends Service
 {
 	private $user = null;
 	private $shelf = null;

@@ -1,7 +1,7 @@
 <?php
 namespace DiegoSCosta\Skoob;
 
-class SkoobService
+abstract class Service
 {
 	protected $url = "http://www.skoob.com.br/v1";
 	protected $api = array();
