@@ -70,7 +70,7 @@ class Bookshelf extends Service
 	public function getRandomBook()
 	{
 		$books = $this->getBooks();
-		$random_number = rand(1, count($books));
+		$random_number = rand(0, count($books) - 1);
 
 		return $books[$random_number];
 	}
