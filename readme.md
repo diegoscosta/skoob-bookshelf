@@ -1,6 +1,6 @@
 Skoob Bookshelf
 ====
-Pequena biblioteca escrita em PHP para pegar livros de usuários no Skoob.
+Biblioteca escrita em PHP para pegar livros de usuários no Skoob.
 
 #####  Como Usar
 Clone ou [baixe](https://github.com/diegoscosta/skoob-bookshelf/archive/master.zip) esse respositório
@@ -25,3 +25,7 @@ $books->setUser($user_id);
 $books->setShelf($books::SHELF_TODOS);
 
 var_dump($books->getBooks());
+```
+
+##### Exemplo
+Na branch `service` foi construído um serviço que retorna livros aleatórios usando como base o framework Silex.
